@@ -1,59 +1,25 @@
 # Learning MERN from TuteDude
+
 [Markdown Basics](https://www.markdownguide.org/basic-syntax/)
 
-## TASK : HTML
-```
-Created an webpage for Laundary Mart
-```
+## TASK : CSS SELECTORS
 
-* Using HTML5 symantics layout for the page
-    * Header
-    * Section
-    * Article
-    * Footer
-* Used HTML tags
-    * Header tag
-    * Paragraph tag
-    * Image tag
-    * Table tag
-    * List tag
-    * Link tag
-    * HR tag
-    * Form tag
-    * Input tag
-    * Button tag
-
-## Viewing the webpage
+### Viewing the webpage
 
 >Run the ***index.html*** at the root of the server
 
 >Locally hosted on port : 5500 via [**VSCODE LIVE SERVER Extension**](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 
-## About the webpage
+### Applying CSS methods
 
-**Header Section**
+1. _Inline CSS_
 
-Site Logo with title of the page
+    ```Adding css witihn the tag using the ***'style'*** attribute```
 
-**Navigation**
+2. _Internal CSS_
 
-Linked are provided for better page navigation
+    ```Adding css within the ***'head'*** tag of the html file.```
 
-**About Section**
+3. _Extenal CSS_
 
-Section describing the webpage and its sections with image
-
-**Services and prices Section**
-
-HTML5 Semantics *Section* and *Article* is used to display the section with paragrapg and table.
-
-**Book Now Section**
-
-Form with 3 required input fields and *Reset*, *Submit* buttons
-* Name : Accepting user's name
-* Email : Accepting user's email
-* Phone : Accepting 10 digit user's mobile number
-
-**Footer Section**
-
-Displaying contact details along with *TOP* link
+    ```Adding css using an external stylesheet file ( eg *.css, *.scss, *,sass ) ```
