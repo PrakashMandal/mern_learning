@@ -1,366 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TuteDude Learning</title>
+    <title>Document</title>
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Internal CSS -->
+    <style>
+        #bglime span {
+            color: red;
+        }
+        section p:nth-child(3) span {
+            color: black;
+            font-size: large;
+        }
+    </style>
 </head>
+
 <body>
-    <table>
-        <header>
-            <tr id="header">
-                <th width="10%" align="center" cellpadding="">
-                    <img src="images/logo.png" alt="laundry_mart_logo" height="100" width="auto" href="#" />
-                </th>
-                <th width="80%" colspan="2" align="center" valign="center">
-                    <h1>Welcome to Laundry Mart</h1>
-                </th>
-                <th width="10%">
-                    <ol compact="true" start="1" type="i">
-                        <li><a href="#our-services" shape>Services</a></li>
-                        <li><a href="#our-prices">Prices</a></li>
-                        <li><a href="#booking-now">Booking Now</a></li>
-                    </ol>
-                    <a href="#footer" shape>Go to bottom ↓</a>
-                </th>
-            </tr>
-        </header>
-        <tr>
-            <td colspan="4">
-                <hr>
-            </td>
-        </tr>
-        <section>
-            <tr id="brief-section">
-                <td width="10%"></td>
-                <td width="80%" colspan="2">
-                    <p>Laundry Mart is a premier laundry service dedicated to providing exceptional garment care with
-                        convenience and reliability. We specialize in professional washing, dry cleaning, ironing, and
-                        stain
-                        removal services tailored to meet the needs of busy individuals and families. Our experienced
-                        team
-                        uses high-quality cleaning products and advanced equipment to ensure every item is treated with
-                        the
-                        utmost care. With a commitment to timely delivery and customer satisfaction, Laundry Mart makes
-                        laundry hassle-free and efficient. Whether it's everyday clothing, delicate fabrics, or
-                        specialty
-                        garments, we guarantee fresh, clean, and perfectly finished results. Experience the perfect
-                        blend of
-                        quality, convenience, and affordability with Laundry Mart.
-                    </p>
-                </td>
-                <td width="10%"></td>
-            </tr>
-        </section>
-        <section>
-            <tr id="banner">
-                <td></td>
-                <td align="center" colspan="2">
-                    <image src="images/home-page.png" height="500" width="auto" href="#" />
-                </td>
-                <td></td>
-            </tr>
-        </section>
-        <article>
-            <tr id="our-services">
-                <td></td>
-                <td colspan="2">
-                    <h2>Our Services</h2>
-                    <p>
-                        At <strong>Laundry Mart</strong>, we provide professional laundry and garment care
-                        services designed to keep your clothes fresh, clean, and looking their best.
-                        Choose from our comprehensive range of services tailored to your needs and budget.
-                    </p>
-                    <ul>
-                        <li>
-                            <h4>🧺 Washing and Drying</h4>
-                        </li>
-                        <li>
-                            <h4>👔 Ironing and Folding</h4>
-                        </li>
-                        <li>
-                            <h4>✨ Dry Cleaning</h4>
-                        </li>
-                        <li>
-                            <h4>🧼 Stain Removal</h4>
-                        </li>
-                        <li>
-                            <h4>⚡ Express Laundry Service</h4>
-                        </li>
-                        <li>
-                            <h4>👗 Special Garment Care</h4>
-                        </li>
-                        <li>
-                            <h4>🚚 Pickup and Delivery</h4>
-                        </li>
-                        <li>
-                            <h4>🛏️ Household Linen Cleaning</h4>
-                        </li>
-                    </ul>
-                </td>
-                <td></td>
-            </tr>
-        </article>
-        <article>
-            <tr id="our-prices">
-                <td></td>
-                <td colspan="2">
-                    <h2>Our Prices</h2>
-                    <p>We offer affordable and transparent pricing for all laundry services with no
-                        hidden charges. Choose from a range of services and add-ons tailored to your needs.</p>
-                </td>
-                <td></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td colspan="2">
-                    <table border="1" cellspacing="1">
-                        <tr>
-                            <td width="30%">
-                                <strong>&nbsp;🧺&nbsp; Washing & Drying</strong>
-                            </td>
-                            <td width="70%">
-                                <p>Enjoy hassle-free laundry with our premium washing and drying service. We use
-                                    high-quality detergents and fabric-safe processes to ensure your clothes remain
-                                    fresh, clean, and long-lasting.</p>
-                                <p>
-                                    <strong>Starting Price:</strong> ₹8.99 per load<br>
-                                    <strong>Add-ons:</strong> Hypoallergenic Detergent (+₹2), Fabric Softener (+₹1.50)
-                                </p>
-                            </td>
-                        </tr>
+    <article>
+        <h1 class="head">This is a h1 heading with head as a class.</h1>
+        <h2 id="bglime" class="head">This is a h2 heading with <span>"head"</span> as a class and "bglime" as an id.
+        </h2>
+        <h4 class="head">This is a h4 heading with head as a class</h4>
+    </article>
+    <section>
+        <p>This is a p paragraph tag without any id or class styled using "p" element selector</p>
+        <p id="para">This is a p paragraph tag with para as an id</p>
+        <p>This is a p <span>paragraph</span> tag without any id or class styled
+            using "p" element selector</p>
+    </section>
+    <!-- No CSS Challenge line-->
+    <article>
+        <!-- This p tag have inline css -->
+        <p style="color: black; font-size: large; font-weight: 600;">Show this output without inline CSS nor using class
+            or id for "a" tag</p>
 
-                        <tr>
-                            <td>
-                                <strong>&nbsp;👔&nbsp; Ironing & Folding</strong>
-                            </td>
-                            <td>
-                                <p>Get perfectly pressed and neatly folded garments ready to wear. Ideal for busy
-                                    professionals, families, and anyone who values a polished appearance.</p>
+        <!-- The trick is to not put class or id on 'a' tag but is not mentioened for its parents !! -->
+        <ul id="css-challenge">
+            <li>Click <a href="https://upskillmafia.tutedude.com/">here</a> to go to UpskillMafia</li>
+            <li>Click <a href="https://www.google.com/">here</a> to go to Google</li>
+        </ul>
 
-                                <p><strong>Starting Price:</strong> ₹1.25 per item<br>
-                                    <strong>Add-ons:</strong> Premium Steam Press (+₹0.75/item), Hanger Packaging
-                                    (+₹0.50/item)
-                                </p>
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td>
-                                <strong>&nbsp;✨&nbsp; Dry Cleaning</strong>
-                            </td>
-                            <td>
-                                <p>Preserve the quality of your delicate and formal garments with our expert dry
-                                    cleaning service. Suitable for suits, dresses, blazers, and specialty fabrics.</p>
-
-                                <p><strong>Starting Price:</strong> ₹12.99 per garment<br>
-                                    <strong>Add-ons:</strong> Odor Removal (+₹3), Fabric Protection Treatment (+₹4)
-                                </p>
-
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td>
-                                <strong>&nbsp;🧼&nbsp; Stain Removal</strong>
-                            </td>
-                            <td>
-                                <p>Our specialists tackle tough stains from food, wine, ink, grease, and more using
-                                    advanced stain-treatment techniques while protecting fabric integrity.</p>
-
-                                <p><strong>Starting Price:</strong> ₹4.99 per stain treatment<br>
-                                    <strong>Add-ons:</strong> Deep Spot Treatment (+₹3), Color Restoration (+₹5)
-                                </p>
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td>
-                                <strong>&nbsp;⚡&nbsp; Express Laundry Service</strong>
-                            </td>
-                            <td>
-                                <p>Need your clothes cleaned in a hurry? Our express service offers priority
-                                    processing with same-day or next-day turnaround for urgent requirements.</p>
-
-                                <p><strong>Starting Price:</strong> ₹14.99 per load<br>
-                                    <strong>Add-ons:</strong> 4-Hour Rush Service (+₹8), Priority Pickup (+₹5)
-                                </p>
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td>
-                                <strong>&nbsp;👗&nbsp; Special Garment Care</strong>
-                            </td>
-                            <td>
-                                <p>Trust our experts with wedding dresses, designer wear, silk garments, uniforms,
-                                    and other specialty items requiring extra attention and care.</p>
-
-                                <p><strong>Starting Price:</strong> ₹19.99 per item<br>
-                                    <strong>Add-ons:</strong> Hand Finishing (+₹7), Premium Preservation Packaging
-                                    (+₹10)
-                                </p>
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td>
-                                <strong>&nbsp;🚚&nbsp; Pickup & Delivery</strong>
-                            </td>
-                            <td>
-                                <p>Save time with our convenient doorstep pickup and delivery service. Schedule a
-                                    collection and let us handle the rest.</p>
-
-                                <p><strong>Starting Price:</strong> ₹5.99 per trip<br>
-                                    <strong>Add-ons:</strong> Express Delivery (+₹6), Recurring Weekly Service
-                                    (+₹3/trip)
-                                </p>
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td>
-                                <strong>&nbsp;🛏️&nbsp; Household Linen Cleaning</strong>
-                            </td>
-                            <td>
-                                <p>Keep your home fresh and hygienic with professional cleaning for bed sheets,
-                                    comforters, blankets, curtains, and table linens.</p>
-
-                                <p><strong>Starting Price:</strong> ₹9.99 per item<br>
-                                    <strong>Add-ons:</strong> Sanitization Treatment (+₹4), Fragrance Finish (+₹2)
-                                </p>
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-                <td></td>
-            </tr>
-        </article>
-        <tr>
-            <td colspan="4"></td>
-        </tr>
-        <section>
-            <form action="">
-                <tr id="booking-now">
-                    <td></td>
-                    <td colspan="2">
-                        <h2>Booking Now</h2>
-                    </td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td width="20%"><label for="name">Name <sup>*</sup></label></td>
-                    <td><input id="name" name="name" type="text" maxlength="85" size="50" required
-                            placeholder="Please enter your name"></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td><label for="email">Email <sup>*</sup></label></td>
-                    <td><input id="email" name="email" type="text" size="50" placeholder="Please enter your email"></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td><label for="phone">Phone <sup>*</sup></label></td>
-                    <td><input id="phone" name="phone" type="number" minlength="9" maxlength="13" size="50" required
-                            placeholder="Please enter your phone number"></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td><label for="date">Booking Date <sup>*</sup></label></td>
-                    <td><input id="date" name="date" type="date" size="50" required
-                            placeholder="Please enter your booking date"></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td>Cloth Types <sup>*</sup></td>
-                    <td>
-                        <table>
-                            <tr>
-                                <td><input id="cloth_type_linen" type="checkbox"><label for="cloth_type_linen">
-                                        Linen</label></td>
-                                <td><input id="cloth_type_tshirt" type="checkbox"><label for="cloth_type_tshirt">
-                                        T-Shirts</label></td>
-                                <td><input id="cloth_type_shirt" type="checkbox"><label for="cloth_type_shirt"> Formal
-                                        Shirts</label></td>
-                            </tr>
-                            <tr>
-                                <td><input id="cloth_type_trousers" type="checkbox"><label for="cloth_type_trousers">
-                                        Trousers</label></td>
-                                <td><input id="cloth_type_jeans" type="checkbox"><label for="cloth_type_jeans">
-                                        Jeans</label></td>
-                                <td><input id="cloth_type_suit" type="checkbox"><label for="cloth_type_suit">
-                                        Suits</label>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td><input id="cloth_type_blazer" type="checkbox"><label for="cloth_type_blazer">
-                                        Blazers</label></td>
-                                <td><input id="cloth_type_dress" type="checkbox"><label for="cloth_type_dress">
-                                        Dresses</label></td>
-                                <td><input id="cloth_type_saree" type="checkbox"><label for="cloth_type_saree">
-                                        Sarees</label></td>
-                            </tr>
-                            <tr>
-                                <td><input id="cloth_type_jacket" type="checkbox"><label for="cloth_type_jacket">
-                                        Jackets</label></td>
-                                <td><input id="cloth_type_sweater" type="checkbox"><label for="cloth_type_sweater">
-                                        Sweaters</label></td>
-                                <td><input id="cloth_type_uniform" type="checkbox"><label for="cloth_type_uniform">
-                                        Uniforms</label></td>
-                            </tr>
-                            <tr>
-                                <td><input id="cloth_type_bedsheet" type="checkbox"><label for="cloth_type_bedsheet">
-                                        Bed
-                                        Sheets</label></td>
-                                <td><input id="cloth_type_blanket" type="checkbox"><label for="cloth_type_blanket">
-                                        Blankets</label></td>
-                                <td><input id="cloth_type_curtains" type="checkbox"><label for="cloth_type_curtains">
-                                        Curtains</label></td>
-                            </tr>
-                            <tr>
-                                <td><input id="cloth_type_wedding" type="checkbox"><label for="cloth_type_wedding">
-                                        Wedding
-                                        Dresses</label></td>
-                                <td></td>
-                                <td></td>
-                            </tr>
-                        </table>
-                    </td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td><button type="reset">Reset Form</button></td>
-                    <td><button type="submit">Submit Form</button></td>
-                    <td></td>
-                </tr>
-            </form>
-            </tr>
-        </section>
-        <tr>
-            <td colspan="4">
-                <hr>
-            </td>
-        </tr>
-        <footer>
-            <tr id="footer">
-                <td></td>
-                <td colspan="2" valign="middle" align="center">
-                    <img src="images/footer.png" width="100" alt="footer_img" /> &nbsp;&nbsp;
-                    Contact us at : <a href="mailto:contact@laundrymart.com">contact@laundrymart.com</a> <br>
-                </td>
-                <td>
-                    <a href="#header" shape>Go to top ↑</a>
-                </td>
-            </tr>
-        </footer>
-    </table>
-    <hr>
+        <!-- Add CSS by Selecting the only ordered list on the page. -->
+        <ol type="1">
+            <li>This is li tag without any id or class</li>
+            <li>This is li tag without any id or class and is in blue color</li>
+            <li>This is li tag without any id or class and is in red color</li>
+            <li>This is li tag without any id or class</li>
+            <li>This is li tag without any id or class</li>
+        </ol>
+    </article>
 </body>
 
 </html>
