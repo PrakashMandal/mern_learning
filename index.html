@@ -4,55 +4,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>TuteDude Learning</title>
     <!-- External CSS -->
     <link rel="stylesheet" href="style.css">
-    <!-- Internal CSS -->
-    <style>
-        #bglime span {
-            color: red;
-        }
-        section p:nth-child(3) span {
-            color: black;
-            font-size: large;
-        }
-    </style>
 </head>
 
 <body>
-    <article>
-        <h1 class="head">This is a h1 heading with head as a class.</h1>
-        <h2 id="bglime" class="head">This is a h2 heading with <span>"head"</span> as a class and "bglime" as an id.
-        </h2>
-        <h4 class="head">This is a h4 heading with head as a class</h4>
-    </article>
-    <section>
-        <p>This is a p paragraph tag without any id or class styled using "p" element selector</p>
-        <p id="para">This is a p paragraph tag with para as an id</p>
-        <p>This is a p <span>paragraph</span> tag without any id or class styled
-            using "p" element selector</p>
+    <header>
+        <!-- Blank header to follow the symantics-->
+    </header>
+
+    <!-- Full Width Hero section with image and button-->
+    <section id="hero-section">
+        <!-- div with border-box -->
+        <div id="banner">
+            <img src="images/Tranquil lakeside sunset at dusk.png" alt="hero-image"><button type="button">Click
+                Me</button>
+        </div>
     </section>
-    <!-- No CSS Challenge line-->
-    <article>
-        <!-- This p tag have inline css -->
-        <p style="color: black; font-size: large; font-weight: 600;">Show this output without inline CSS nor using class
-            or id for "a" tag</p>
 
-        <!-- The trick is to not put class or id on 'a' tag but is not mentioened for its parents !! -->
-        <ul id="css-challenge">
-            <li>Click <a href="https://upskillmafia.tutedude.com/">here</a> to go to UpskillMafia</li>
-            <li>Click <a href="https://www.google.com/">here</a> to go to Google</li>
-        </ul>
-
-        <!-- Add CSS by Selecting the only ordered list on the page. -->
-        <ol type="1">
-            <li>This is li tag without any id or class</li>
-            <li>This is li tag without any id or class and is in blue color</li>
-            <li>This is li tag without any id or class and is in red color</li>
-            <li>This is li tag without any id or class</li>
-            <li>This is li tag without any id or class</li>
-        </ol>
-    </article>
+    <footer>
+        <!-- Blank footer to follow the symantics-->
+    </footer>
 </body>
 
 </html>
