@@ -1,25 +1,30 @@
 # Learning MERN from TuteDude
-
 [Markdown Basics](https://www.markdownguide.org/basic-syntax/)
 
-## TASK : CSS SELECTORS
+## TASK : CSS - Unites, Box Model, Fonts
+```
+Created a responsive webpage display usage of Box Model.
+```
 
-### Viewing the webpage
+* Using HTML5 symantics layout for the page
+    * Header
+    * Section
+    * Footer
+* Used HTML tags
+    * Header tag
+    * Image tag
+    * Button tag
+    * Footer tag
+
+## Viewing the webpage
 
 >Run the ***index.html*** at the root of the server
+>CSS is linked as external file.
 
 >Locally hosted on port : 5500 via [**VSCODE LIVE SERVER Extension**](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 
-### Applying CSS methods
+## About the webpage
 
-1. _Inline CSS_
+**HERO Section**
 
-    ```Adding css witihn the tag using the ***'style'*** attribute```
-
-2. _Internal CSS_
-
-    ```Adding css within the ***'head'*** tag of the html file.```
-
-3. _Extenal CSS_
-
-    ```Adding css using an external stylesheet file ( eg *.css, *.scss, *,sass ) ```
+Responsive Section with image and button with Box Model implemented

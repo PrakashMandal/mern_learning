@@ -3,43 +3,47 @@
     Colors have been pickedup from the given word document using dev tools.
 */
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     /* background-color: chocolate; */
-    background: #ff7f50;
+    background: #f2efee;
 }
 
-.head {
-    color: darkblue;
+#banner {
+    margin: 10vh 25vw;
+    padding: 5px;
+    border: 1px solid black;
+    text-align: center;
 }
 
-h2#bglime {
-    background: lime;
+img {
+    max-width: 100%;
+    height: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: block;
 }
 
-p {
-    color: #fff;
+button {
+    width: 100%;
+    padding: 1vh;
+    background: linear-gradient( 45deg, red, white, blue);
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 0;
+    letter-spacing: 5px;
 }
 
-p#para {
-    color: green;
-}
-
-/* The psudo class wil be on the li tag as its the firs child of the main selector */
-#css-challenge li:first-of-type a {
-    color: red;
-    background-color: lime;
-}
-
-#css-challenge li:last-of-type a {
-    color: #270ceb;
-    background-color: #8a2be2;
-}
-
-/* Using psudo class on OL tag for  */
-ol li:nth-child(2) {
-    color: blue;
-}
-
-ol li:nth-child(3) {
-    color: red;
+button:hover {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    color:darkgreen;
 }
