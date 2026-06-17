@@ -4,119 +4,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TuteDude Learning</title>
+    <title>Document</title>
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Internal CSS -->
+    <style>
+        #bglime span {
+            color: red;
+        }
+        section p:nth-child(3) span {
+            color: black;
+            font-size: large;
+        }
+    </style>
 </head>
 
 <body>
-    <!-- Header Section -->
-    <header id="top">
-        <table width="100%">
-            <tr>
-                <td width="25%"><img src="images/logo.png" alt="laundary_mart_logo" srcset="" width="50"></td>
-                <td width="75%">
-                    <H1>Welcome to Laundry Mart</H1>
-                </td>
-            </tr>
-        </table>
-    </header>
-    <hr>
-    <!-- Navigation Menu -->
-    <nav>
-        <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#prices">Prices</a></li>
-            <li><a href="#book-now">Book Now</a></li>
-        </ul>
-    </nav>
-    <!-- Page content starts -->
-    <section id="about">
-        <h3>About</h3>
-        <p>
-            Welcome to <strong> Laundary Mart ! </strong> Your trusted destination for professional laundry and garment
-            care services. We are committed to providing high-quality washing, dry cleaning, ironing, and stain removal
-            solutions with exceptional attention to detail. Our experienced team uses modern equipment and premium
-            cleaning products to ensure every garment is treated with care. With convenient pickup and delivery options,
-            fast turnaround times, and affordable pricing, we make laundry simple and stress-free. At Laundry Mart,
-            customer satisfaction and fresh, spotless results are at the heart of everything we do
-        </p>
-        <img src="images/home-page.png" alt="laundary_mart_image" srcset="" height="550">
-    </section>
-    <section id="services">
-        <h3>Our Services</h3>
-        <p>At <strong>Laundry Mart</strong>, we provide professional laundry and garment care
-            services designed to keep your clothes fresh, clean, and looking their best.
-            Choose from our comprehensive range of services tailored to your needs and budget. </p>
-        <ol start="1" type="A">
-            <li>Washing and Drying</li>
-            <li>Ironing and Folding</li>
-            <li>Dry Cleaning</li>
-            <li>Stain Removal</li>
-            <li>Express Services</li>
-            <li>Special Garment Care</li>
-            <li>Pickup and Drop Service</li>
-            <li>Coporate Services</li>
-        </ol>
-    </section>
-    <article id="prices">
-        <h3>Our Price List</h3>
-        <table width="50%" id="service-prices" border="2" cellspacing="10">
-            <tr>
-                <td>Washing and Drying</td>
-                <td> ₹15 per clothing item </td>
-            </tr>
-            <tr>
-                <td>Ironing and Folding</td>
-                <td> ₹8 per clothing item </td>
-            </tr>
-            <tr>
-                <td>Dry Cleaning</td>
-                <td> min ₹50 per clothing item </td>
-            </tr>
-            <tr>
-                <td>Stain Removal</td>
-                <td> min ₹30 per clothing item </td>
-            </tr>
-            <tr>
-                <td>Special Garment Care</td>
-                <td> ₹150 per clothing item </td>
-            </tr>
-            <tr>
-                <td>Pickup and Drop Service</td>
-                <td> min ₹1000 order else ₹25 </td>
-            </tr>
-        </table>
+    <article>
+        <h1 class="head">This is a h1 heading with head as a class.</h1>
+        <h2 id="bglime" class="head">This is a h2 heading with <span>"head"</span> as a class and "bglime" as an id.
+        </h2>
+        <h4 class="head">This is a h4 heading with head as a class</h4>
     </article>
-    <!-- Booking Form -->
-    <section id="book-now">
-        <h3>Book Now</h3>
-        <form action="">
-            <label for="name">Name <sup>*</sup> : </label>
-            <input type="text" id="name" name="name" required size="50" placeholder="Enter your name" /> <br><br>
-            <label for="email">Email <sup>*</sup> : </label>
-            <input type="email" id="email" name="email" required size="50" placeholder="Enter your email" /> <br><br>
-            <label for="phone">Phone <sup>*</sup> : </label>
-            <input type="tel" id="phone" name="phone" required size="50" pattern="[0-9]{10}"
-                placeholder="Enter 10 digit phone number" /> <br><br>
-            <button type="reset">Reset</button> &nbsp;&nbsp;
-            <button type="submit">Submit</button>
-        </form>
+    <section>
+        <p>This is a p paragraph tag without any id or class styled using "p" element selector</p>
+        <p id="para">This is a p paragraph tag with para as an id</p>
+        <p>This is a p <span>paragraph</span> tag without any id or class styled
+            using "p" element selector</p>
     </section>
-    <!-- Page content ends -->
-    <hr>
-    <!-- Footer Section -->
-    <footer>
-        <table width="100%">
-            <tr>
-                <td width="25%"></td>
-                <td width="50%">
-                    <p>Contact us at : <a href="mailto:info@laundrymart.com">info@laundrymart.com</a></p>
-                </td>
-                <td><a href="#top">Go to Top </a></td>
-            </tr>
-        </table>
-    </footer>
+    <!-- No CSS Challenge line-->
+    <article>
+        <!-- This p tag have inline css -->
+        <p style="color: black; font-size: large; font-weight: 600;">Show this output without inline CSS nor using class
+            or id for "a" tag</p>
+
+        <!-- The trick is to not put class or id on 'a' tag but is not mentioened for its parents !! -->
+        <ul id="css-challenge">
+            <li>Click <a href="https://upskillmafia.tutedude.com/">here</a> to go to UpskillMafia</li>
+            <li>Click <a href="https://www.google.com/">here</a> to go to Google</li>
+        </ul>
+
+        <!-- Add CSS by Selecting the only ordered list on the page. -->
+        <ol type="1">
+            <li>This is li tag without any id or class</li>
+            <li>This is li tag without any id or class and is in blue color</li>
+            <li>This is li tag without any id or class and is in red color</li>
+            <li>This is li tag without any id or class</li>
+            <li>This is li tag without any id or class</li>
+        </ol>
+    </article>
 </body>
 
 </html>

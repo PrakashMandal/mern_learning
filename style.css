@@ -1,0 +1,45 @@
+/**
+    Description: Stylesheet File for the index.html
+    Colors have been pickedup from the given word document using dev tools.
+*/
+
+body {
+    /* background-color: chocolate; */
+    background: #ff7f50;
+}
+
+.head {
+    color: darkblue;
+}
+
+h2#bglime {
+    background: lime;
+}
+
+p {
+    color: #fff;
+}
+
+p#para {
+    color: green;
+}
+
+/* The psudo class wil be on the li tag as its the firs child of the main selector */
+#css-challenge li:first-of-type a {
+    color: red;
+    background-color: lime;
+}
+
+#css-challenge li:last-of-type a {
+    color: #270ceb;
+    background-color: #8a2be2;
+}
+
+/* Using psudo class on OL tag for  */
+ol li:nth-child(2) {
+    color: blue;
+}
+
+ol li:nth-child(3) {
+    color: red;
+}
