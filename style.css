@@ -3,47 +3,48 @@
     Colors have been pickedup from the given word document using dev tools.
 */
 
+/* Universal Selector */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* body styles */
 body {
     /* background-color: chocolate; */
     background: #f2efee;
 }
 
+/* div style */
 #banner {
     margin: 10vh 25vw;
-    padding: 5px;
     border: 1px solid black;
     text-align: center;
 }
 
+/* image style */
 img {
     max-width: 100%;
     height: auto;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
     display: block;
 }
 
+/* button style */
 button {
     width: 100%;
     padding: 1vh;
     background: linear-gradient( 45deg, red, white, blue);
     font-weight: 600;
     font-family: 'Times New Roman', Times, serif;
-    font-size: large;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    font-size:x-large;
     border: 0;
     letter-spacing: 5px;
 }
 
+/* button on mouse hover style */
 button:hover {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: larger;
+    font-size:xx-large;
     color:darkgreen;
 }
